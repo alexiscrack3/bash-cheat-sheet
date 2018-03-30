@@ -29,3 +29,29 @@ List all items in current directory, including hidden files.
 ```bash
 ls -a
 ```
+
+### Searching
+
+Find directories or files in system.
+
+```bash
+find <path>
+```
+
+Find a file that is a certain type. Possible types: d, t, l.
+
+```bash
+find <path> -type <type>
+```
+
+Find a file by name but the match is case sensitive.
+
+```bash
+find <path> -type <type> -name "<pattern>"
+```
+
+Find a file by name but the match is case insensitive.
+
+```bash
+find <path> -type <type> -iname "<pattern>"
+```
