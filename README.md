@@ -6,7 +6,8 @@ A collection of some of the most useful Git commands
 
 1. [File System](#file-system)
     * [Listing Directories and Files](#listing-directories-and-files)
-    * [Removing Global Configs]
+    * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
+2. [Searching](#searchgin)
 
 ## File System
 
@@ -30,7 +31,27 @@ List all items in current directory, including hidden files.
 ls -a
 ```
 
-### Searching
+### Displaying the Contents of a File
+
+Output the last 10 lines of file.
+
+```bash
+tail <file>
+```
+
+Output the last 3 lines of file.
+
+```bash
+tail -3 <file>
+```
+
+Output the contents of file as it grows, starting with the last 10 lines.
+
+```bash
+tail -f <file>
+```
+
+## Searching
 
 Find directories or files in system.
 
