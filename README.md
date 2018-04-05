@@ -7,7 +7,7 @@ A collection of some of the most useful Git commands
 1. [File System](#file-system)
     * [Listing Directories and Files](#listing-directories-and-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
-2. [Searching](#searchgin)
+2. [Searching](#searching)
 
 ## File System
 
