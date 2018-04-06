@@ -6,6 +6,7 @@ A collection of some of the most useful Git commands
 
 1. [File System](#file-system)
     * [Listing Directories and Files](#listing-directories-and-files)
+    * [Managing Files](#managing-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
 2. [Searching](#searching)
 
@@ -29,6 +30,14 @@ List all items in current directory, including hidden files.
 
 ```bash
 ls -a
+```
+
+### Managing Files
+
+Create or update file
+
+```bash
+touch <file>
 ```
 
 ### Displaying the Contents of a File
