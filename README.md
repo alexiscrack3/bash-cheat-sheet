@@ -10,6 +10,7 @@ A collection of some of the most useful Git commands
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
 2. [Searching](#searching)
+3. [Others](#others)
 
 ## File System
 
@@ -117,4 +118,18 @@ Find a file by name but the match is case insensitive.
 
 ```bash
 find <path> -type <type> -iname "<pattern>"
+```
+
+## Others
+
+Executes the right-hand command of && only if the previous one succeeded.
+
+```bash
+<command> && <command
+```
+
+Executes the right-hand command of || only it the previous one failed.
+
+```bash
+<command> || <command
 ```
