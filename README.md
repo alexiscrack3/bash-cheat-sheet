@@ -9,6 +9,7 @@ A collection of some of the most useful Git commands
     * [Making Directories](#making-directories)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
+    * [Utils](#utils)
 2. [Searching](#searching)
 3. [Others](#others)
 
@@ -118,6 +119,14 @@ Find a file by name but the match is case insensitive.
 
 ```bash
 find <path> -type <type> -iname "<pattern>"
+```
+
+### Utils
+
+Show present working directory.
+
+```bash
+pwd
 ```
 
 ## Others
