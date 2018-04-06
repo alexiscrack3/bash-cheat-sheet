@@ -33,6 +33,30 @@ ls -a
 
 ### Displaying the Contents of a File
 
+Output the contents of file.
+
+```bash
+cat <file>
+```
+
+View file with page navigation.
+
+```bash
+less <file>
+```
+
+Output the first 10 lines of file.
+
+```bash
+head <file>
+```
+
+Output the first 3 lines of file.
+
+```bash
+head -3 <file>
+```
+
 Output the last 10 lines of file.
 
 ```bash
