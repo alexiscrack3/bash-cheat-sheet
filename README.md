@@ -43,6 +43,14 @@ Make directory dir.
 mkdir <dir>
 ```
 
+### Moving Files
+
+Move (rename) file1 to file2.
+
+```bash
+mv <file1> <file2>
+```
+
 ### Making Files
 
 Create or update file
