@@ -43,6 +43,20 @@ Make directory dir.
 mkdir <dir>
 ```
 
+### Copying Files
+
+Copy file1 to file2.
+
+```bash
+cp <file1> <file2>
+```
+
+Copy directory dir1 to dir2 recursively.
+
+```bash
+cp -r <dir1> <dir2>
+```
+
 ### Moving Files
 
 Move (rename) file1 to file2.
