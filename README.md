@@ -202,6 +202,24 @@ tail -f <file>
 
 ## Networking
 
+List all processes running on port.
+
+```bash
+lsof -i :<port>
+```
+
+List all processes running on tcp port.
+
+```bash
+lsof -i tcp:<port>
+```
+
+List process using a file.
+
+```bash
+lsof <file>
+```
+
 ## Process Management
 
 Display all running processes.
