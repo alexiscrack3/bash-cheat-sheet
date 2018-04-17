@@ -6,6 +6,7 @@ A collection of some of the most useful Git commands
 
 1. [File System](#file-system)
     * [Listing Directories and Files](#listing-directories-and-files)
+    * [Changing Working Directory](#changing-working-directory)
     * [Making Directories](#making-directories)
     * [Copying Files](#copying-files)
     * [Moving Files](#moving-files)
@@ -35,6 +36,44 @@ List all items in current directory, including hidden files.
 
 ```bash
 ls -a
+```
+
+### Changing Working Directory
+
+Change directory to dir.
+
+```bash
+cd <dir>
+```
+
+Change directory to home.
+
+```bash
+cd
+```
+
+Go up one directory.
+
+```bash
+cd ..
+```
+
+Go to the root directory.
+
+```bash
+cd /
+```
+
+Go to to your home directory.
+
+```bash
+cd ~
+```
+
+Go to the last directory you were just in.
+
+```bash
+cd -
 ```
 
 ### Making Directories
