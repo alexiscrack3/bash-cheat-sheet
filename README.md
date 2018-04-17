@@ -12,9 +12,13 @@ A collection of some of the most useful Git commands
     * [Moving Files](#moving-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
-2. [Process Management](#process-management)
-3. [Searching](#searching)
-4. [Others](#others)
+2. [Compression](#compression)
+3. [System](#system)
+4. [Networking](#networking)
+5. [Process Management](#process-management)
+6. [Permissions](#permissions)
+7. [Searching](#searching)
+8. [Others](#others)
 
 ## File System
 
@@ -192,6 +196,12 @@ Output the contents of file as it grows, starting with the last 10 lines.
 tail -f <file>
 ```
 
+## Compression
+
+## System
+
+## Networking
+
 ## Process Management
 
 Display all running processes.
@@ -199,6 +209,8 @@ Display all running processes.
 ```bash
 top
 ```
+
+## Permissions
 
 ## Searching
 
