@@ -44,6 +44,40 @@ Make directory dir.
 mkdir <dir>
 ```
 
+### Removing Directories
+
+Remove empty directory.
+
+```bash
+rmdir <dir>
+```
+
+Remove directory dir recursively.
+
+```bash
+rm -r <dir>
+```
+
+Ignore nonexistent files, never prompt.
+
+```bash
+rm -f <dir>
+```
+
+### Removing Files
+
+Remove file.
+
+```bash
+rm <file>
+```
+
+Remove files that match a pattern.
+
+```bash
+rm <pattern>
+```
+
 ### Copying Files
 
 Copy file1 to file2.
