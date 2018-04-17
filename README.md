@@ -11,8 +11,9 @@ A collection of some of the most useful Git commands
     * [Moving Files](#moving-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
-2. [Searching](#searching)
-3. [Others](#others)
+2. [Process Management](#process-management)
+3. [Searching](#searching)
+4. [Others](#others)
 
 ## File System
 
@@ -150,6 +151,14 @@ Output the contents of file as it grows, starting with the last 10 lines.
 
 ```bash
 tail -f <file>
+```
+
+## Process Management
+
+Display all running processes.
+
+```bash
+top
 ```
 
 ## Searching
