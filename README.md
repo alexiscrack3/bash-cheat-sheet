@@ -200,6 +200,18 @@ tail -f <file>
 
 ## System
 
+Show directory space usage.
+
+```bash
+du <file>
+```
+
+Show directory space usage with human readable size.
+
+```bash
+du -h <file>
+```
+
 ## Networking
 
 List all processes running on port.
