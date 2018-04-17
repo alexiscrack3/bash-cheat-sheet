@@ -7,9 +7,10 @@ A collection of some of the most useful Git commands
 1. [File System](#file-system)
     * [Listing Directories and Files](#listing-directories-and-files)
     * [Making Directories](#making-directories)
+    * [Copying Files](#copying-files)
+    * [Moving Files](#moving-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
-    * [Utils](#utils)
 2. [Searching](#searching)
 3. [Others](#others)
 
@@ -143,15 +144,13 @@ Find a file by name but the match is case insensitive.
 find <path> -type <type> -iname "<pattern>"
 ```
 
-### Utils
+## Others
 
 Show present working directory.
 
 ```bash
 pwd
 ```
-
-## Others
 
 Executes the right-hand command of && only if the previous one succeeded.
 
