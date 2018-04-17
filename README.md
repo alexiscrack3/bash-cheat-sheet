@@ -228,6 +228,14 @@ Display all running processes.
 top
 ```
 
+Kill process id pid.
+
+```bash
+kill <pid>
+```
+
+kill -9 <pid></pid> — force kill process id pid
+
 ## Permissions
 
 ## Searching
