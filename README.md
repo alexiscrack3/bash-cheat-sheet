@@ -254,6 +254,48 @@ kill -9 <pid>
 
 ## Permissions
 
+Change permissions of file to ugo - u is the user's permissions, g is the group's permissions, and o is everyone else's permissions. The values of u, g, and o can be any number between 0 and 7.
+
+* 7 — full permissions
+* 6 — read and write only
+* 5 — read and execute only
+* 4 — read only
+* 3 — write and execute only
+* 2 — write only
+* 1 — execute only
+* 0 — no permissions
+
+```bash
+chmod <ugo> <path>
+```
+
+User can read and write - good for files.
+
+```bash
+chmod 600 <path>
+```
+
+User can read, write, and execute - good for scripts.
+
+```bash
+chmod 700 <path>
+```
+
+User can read and write, and everyone else can only read - good for web pages.
+
+```bash
+chmod 644 <path>
+```
+
+User can read, write, and execute, and everyone else can read and execute - good for programs that you want to share.
+
+```bash
+chmod 755 <path>
+````
+
+chmod +x <file>
+chmod -x <file>
+
 ## Searching
 
 Find directories or files in system.
