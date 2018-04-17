@@ -234,7 +234,11 @@ Kill process id pid.
 kill <pid>
 ```
 
-kill -9 <pid></pid> — force kill process id pid
+Force kill process id pid.
+
+```bash
+kill -9 <pid>
+```
 
 ## Permissions
 
