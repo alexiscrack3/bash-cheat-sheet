@@ -17,6 +17,8 @@ A collection of some of the most useful Git commands
 4. [Networking](#networking)
 5. [Process Management](#process-management)
 6. [Permissions](#permissions)
+    * [Changing Permissions](#changing-permissions)
+    * [Making Executables](#making-executables)
 7. [Searching](#searching)
 8. [Others](#others)
 
@@ -254,6 +256,8 @@ kill -9 <pid>
 
 ## Permissions
 
+### Changing Permissions
+
 Change permissions of file to ugo - u is the user's permissions, g is the group's permissions, and o is everyone else's permissions. The values of u, g, and o can be any number between 0 and 7.
 
 * 7 — full permissions
@@ -291,10 +295,21 @@ User can read, write, and execute, and everyone else can read and execute - good
 
 ```bash
 chmod 755 <path>
-````
+```
 
+### Making Executables
+
+Add the executable bit (x) to the user, group and others.
+
+```bash
 chmod +x <file>
+```
+
+RemoveAdd the executable bit (x) to the user, group and others.
+
+```bash
 chmod -x <file>
+```
 
 ## Searching
 
