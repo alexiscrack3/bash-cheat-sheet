@@ -10,6 +10,7 @@ A collection of some of the most useful Git commands
     * [Making Directories](#making-directories)
     * [Copying Files](#copying-files)
     * [Moving Files](#moving-files)
+    * [Linking Files](#linking-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
 2. [Compression](#compression)
@@ -144,6 +145,14 @@ Move (rename) file1 to file2.
 
 ```bash
 mv <file1> <file2>
+```
+
+### Linking Files
+
+Create symbolic link to file, instead of hard links.
+
+```bash
+ln -s <file> <link>
 ```
 
 ### Making Files
