@@ -248,6 +248,12 @@ lsof <file>
 Display all running processes.
 
 ```bash
+ps -wA
+```
+
+Display all running processes.
+
+```bash
 top
 ```
 
