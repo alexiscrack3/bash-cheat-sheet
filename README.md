@@ -41,10 +41,28 @@ List items in current directory and show in long format to see perimissions, siz
 ls -l
 ```
 
+List items in current directory and show in long format to see perimissions, human readable size, and modification date.
+
+```bash
+ls -lh
+```
+
 List all items in current directory, including hidden files.
 
 ```bash
 ls -a
+```
+
+List directory entries instead of contents.
+
+```bash
+ls -d <dir>
+```
+
+List only hidden files.
+
+```bash
+ls -ld .??*
 ```
 
 ### Changing Working Directory
