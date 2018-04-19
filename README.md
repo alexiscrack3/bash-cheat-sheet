@@ -16,6 +16,8 @@ A collection of some of the most useful Git commands
 2. [Compression](#compression)
 3. [System](#system)
 4. [Networking](#networking)
+    * [Copying Remote Files](#copying-remote-files)
+    * [Processes](#processes)
 5. [Process Management](#process-management)
 6. [Permissions](#permissions)
     * [Changing Permissions](#changing-permissions)
@@ -224,6 +226,22 @@ du -h <file>
 ```
 
 ## Networking
+
+### Copying Remote Files
+
+Secure copy a file from remote server to the dir directory on your machine.
+
+```bash
+scp user@host:file dir
+```
+
+Secure copy a file from your machine to the dir directory on a remote server.
+
+```bash
+scp file user@host:dir
+```
+
+### Processes
 
 List all processes running on port.
 
