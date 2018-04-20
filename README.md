@@ -364,6 +364,42 @@ chmod -x <file>
 
 ## Searching
 
+Search for pattern in dir.
+
+```bash
+grep <pattern> <dir>
+```
+
+Search recursively for pattern in dir.
+
+```bash
+grep -r <pattern> <dir>
+```
+
+Case-insensitive search for pattern in dir.
+
+```bash
+grep -i <pattern> <dir>
+```
+
+Prefix output with line numbers.
+
+```bash
+grep -n <pattern> <dir>
+```
+
+Select non-matching lines.
+
+```bash
+grep -v <pattern> <dir>
+```
+
+Only print a count of matching lines.
+
+```bash
+grep -c <pattern> <dir>
+```
+
 Find directories or files in system.
 
 ```bash
