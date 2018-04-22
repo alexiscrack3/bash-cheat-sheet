@@ -13,18 +13,19 @@ A collection of some of the most useful Git commands
     * [Linking Files](#linking-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
-2. [Compression](#compression)
-3. [System](#system)
-4. [Networking](#networking)
+2. [Systen Info](#system-info)
+3. [Compression](#compression)
+4. [System](#system)
+5. [Networking](#networking)
     * [Sending Request](#sending-requests)
     * [Copying Remote Files](#copying-remote-files)
     * [Processes](#processes)
-5. [Process Management](#process-management)
-6. [Permissions](#permissions)
+6. [Process Management](#process-management)
+7. [Permissions](#permissions)
     * [Changing Permissions](#changing-permissions)
     * [Making Executables](#making-executables)
-7. [Searching](#searching)
-8. [Others](#others)
+8. [Searching](#searching)
+9. [Others](#others)
 
 ## File System
 
@@ -228,9 +229,31 @@ Output the contents of file as it grows, starting with the last 10 lines.
 tail -f <file>
 ```
 
-## Compression
+## System Info
 
-## System
+Show this month's calendar.
+
+```bash
+cal
+```
+
+Show this years's calendar.
+
+```bash
+cal <year>
+```
+
+Display how long the system has been running.
+
+```bash
+uptime
+```
+
+Who you are logged in as.
+
+```bash
+whoami
+```
 
 Show directory space usage.
 
