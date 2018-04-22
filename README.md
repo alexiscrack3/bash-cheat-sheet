@@ -267,17 +267,27 @@ Show directory space usage with human readable size.
 du -h <file>
 ```
 
+Where the app is located.
+
+```bash
+which <app>
+```
+
+## Compression
+
+// TODO
+
 ## Networking
 
 ### Sending Requests
 
-Makes a basic GET request to the specifed URI.
+Make a basic GET request to the specifed URI.
 
 ```bash
 curl <uri>
 ```
 
-Includes HTTP-Header information in the output.
+Include HTTP-Header information in the output.
 
 ```bash
 curl --include <uri>
@@ -289,7 +299,7 @@ Pass user credential to basic auth.
 curl --user "username:password" <uri>
 ```
 
-Sends a header.
+Send a header.
 
 ```bash
 curl --header "Authorization: 12345" <uri>
