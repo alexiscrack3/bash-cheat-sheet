@@ -16,6 +16,7 @@ A collection of some of the most useful Git commands
 2. [Compression](#compression)
 3. [System](#system)
 4. [Networking](#networking)
+    * [Sending Request](#sending-requests)
     * [Copying Remote Files](#copying-remote-files)
     * [Processes](#processes)
 5. [Process Management](#process-management)
@@ -244,6 +245,39 @@ du -h <file>
 ```
 
 ## Networking
+
+### Sending Requests
+
+Makes a basic GET request to the specifed URI.
+
+```bash
+curl <uri>
+```
+
+Includes HTTP-Header information in the output.
+
+```bash
+curl --include <uri>
+```
+
+Pass user credential to basic auth.
+
+```bash
+curl --user "username:password" <uri>
+```
+
+Sends a header.
+
+```bash
+curl --header "Authorization: 12345" <uri>
+```
+
+Show more output.
+
+```bash
+curl -v <uri>
+     --verbose
+```
 
 ### Copying Remote Files
 
