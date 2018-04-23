@@ -491,6 +491,36 @@ Find a file by name but the match is case insensitive.
 find <path> -type <type> -iname "<pattern>"
 ```
 
+Count number of lines/words/characters in file.
+
+```bash
+wc <file>
+```
+
+Count number of bytes in file.
+
+```bash
+wc -c <file>
+```
+
+Count number of lines in file.
+
+```bash
+wc -l <file>
+```
+
+Count number of characters in file.
+
+```bash
+wc -m <file>
+```
+
+Count number of words in file.
+
+```bash
+wc -w <file>
+```
+
 ## Others
 
 Show present working directory.
