@@ -260,6 +260,12 @@ tail -f <file>
 
 ## System Info
 
+Show system’s host name.
+
+```bash
+hostname
+```
+
 Show this month's calendar.
 
 ```bash
