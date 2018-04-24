@@ -651,6 +651,18 @@ cmd + k
 
 ## Others
 
+Print a string.
+
+```bash
+echo "<string>"
+```
+
+Prints exit code of previous command.
+
+```bash
+echo $?
+```
+
 Show present working directory.
 
 ```bash
