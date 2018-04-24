@@ -43,6 +43,12 @@ ls
 List items in current directory and show in long format to see perimissions, size, and modification date.
 
 ```bash
+l
+```
+
+List items in current directory and show in long format to see perimissions, size, and modification date.
+
+```bash
 ls -l
 ```
 
