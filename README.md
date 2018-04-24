@@ -9,6 +9,7 @@ A collection of some of the most useful Git commands
     * [Changing Working Directory](#changing-working-directory)
     * [Making Directories](#making-directories)
     * [Removing Directories](#removing-directories)
+    * [Opening Directories and Files](#opening-directories-and-files)
     * [Copying Files](#copying-files)
     * [Removing Files](#removing-files)
     * [Moving Files](#moving-files)
@@ -133,6 +134,32 @@ Ignore nonexistent files, never prompt.
 
 ```bash
 rm -f <dir>
+```
+
+### Opening Directories and Files
+
+Open current directory.
+
+```bash
+open .
+```
+
+Open files and directories.
+
+```bash
+open <path>
+```
+
+Specifies the application to use for opening the file.
+
+```bash
+open <file> -a <bin>
+```
+
+Causes the file to be opened with the default text editor, as determined via LaunchServices.
+
+```bash
+open -t <file>
 ```
 
 ### Copying Files
