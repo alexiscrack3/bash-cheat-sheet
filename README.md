@@ -645,6 +645,22 @@ Clear the terminal screen.
 clear
 ```
 
+Provide copying to the pasteboard.
+
+```bash
+pbcopy < <file>
+```
+
+Provide copying to the pasteboard.
+
+cat <file> | pbcopy
+
+Provide pasting to the pasteboard.
+
+```bash
+pbpaste
+```
+
 Executes the right-hand command of && only if the previous one succeeded.
 
 ```bash
