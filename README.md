@@ -711,6 +711,12 @@ Provide pasting to the pasteboard.
 pbpaste
 ```
 
+Split a file into pieces. The default size for each split file is 1000 lines.
+
+```bash
+split
+```
+
 Evaluate a file or resource as a script.
 
 ```bash
