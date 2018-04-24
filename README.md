@@ -430,7 +430,7 @@ lsof -P | grep ':<port>' | awk '{print $2}' | xargs kill -9
 
 ### Changing Permissions
 
-Change permissions of file to ugo - u is the user's permissions, g is the group's permissions, and o is everyone else's permissions. The values of u, g, and o can be any number between 0 and 7.
+Change permissions of file to ugo - u is the user's permissions, g is the group's permissions, and o is everyone else's permissions. The values of u, g, and o can be any number between 0 and 7. @ signifies that the file was downloaded from the internet, etc.
 
 * 7 — full permissions
 * 6 — read and write only
@@ -467,6 +467,12 @@ User can read, write, and execute, and everyone else can read and execute - good
 
 ```bash
 chmod 755 <path>
+```
+
+Change owner and group-related information for a file or directory.
+
+```bash
+chown <user> <path>
 ```
 
 ### Making Executables
