@@ -539,10 +539,22 @@ Find a file by name but the match is case insensitive.
 find <path> -type <type> -iname "<pattern>"
 ```
 
-Find empty directories or files.
+True if the current file or directory is empty.
 
 ```bash
-find ~ -type <type> -empty
+find <path> -type <type> -empty
+```
+
+Execute command for all directories or files in a given path.
+
+```bash
+find <path> -type <type> -exec chmod 644 {} \;
+```
+
+Execute command for all directories or files in a given path.
+
+```bash
+find <path> -type <type> -iname "*.csv" -exec cp {} ~/csv_files/ \;
 ```
 
 Count number of lines/words/characters in file.
