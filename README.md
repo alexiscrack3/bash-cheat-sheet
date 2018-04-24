@@ -663,6 +663,12 @@ Prints exit code of previous command.
 echo $?
 ```
 
+Append stdout of command to a file.
+
+```bash
+<cmd> >> <file>
+```
+
 Show present working directory.
 
 ```bash
