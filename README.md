@@ -77,6 +77,8 @@ List only hidden files.
 ls -ld .??*
 ```
 
+**-rw-r--r--@ the at symbol signifies that the file was downloaded from the internet, etc.**
+
 ### Changing Working Directory
 
 Change directory to dir.
@@ -430,7 +432,7 @@ lsof -P | grep ':<port>' | awk '{print $2}' | xargs kill -9
 
 ### Changing Permissions
 
-Change permissions of file to ugo - u is the user's permissions, g is the group's permissions, and o is everyone else's permissions. The values of u, g, and o can be any number between 0 and 7. @ signifies that the file was downloaded from the internet, etc.
+Change permissions of file to ugo - u is the user's permissions, g is the group's permissions, and o is everyone else's permissions. The values of u, g, and o can be any number between 0 and 7.
 
 * 7 — full permissions
 * 6 — read and write only
