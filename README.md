@@ -644,3 +644,9 @@ Executes the right-hand command of || only it the previous one failed.
 ```bash
 <command> || <command
 ```
+
+List recent commands.
+
+```bash
+history
+```
