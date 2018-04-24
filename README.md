@@ -272,22 +272,16 @@ Show system’s host name.
 hostname
 ```
 
-Show this month's calendar.
+Display how long the system has been running.
 
 ```bash
-cal
-```
-
-Show this years's calendar.
-
-```bash
-cal <year>
+uptime
 ```
 
 Display how long the system has been running.
 
 ```bash
-uptime
+w
 ```
 
 Who you are logged in as.
@@ -312,6 +306,18 @@ Where the app is located.
 
 ```bash
 which <app>
+```
+
+Show this month's calendar.
+
+```bash
+cal
+```
+
+Show this years's calendar.
+
+```bash
+cal <year>
 ```
 
 ## Compression
