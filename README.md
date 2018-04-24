@@ -28,7 +28,8 @@ A collection of some of the most useful Git commands
     * [Changing Permissions](#changing-permissions)
     * [Making Executables](#making-executables)
 8. [Searching](#searching)
-9. [Others](#others)
+9. [Shortcuts](#shortcuts)
+10. [Others](#others)
 
 ## File System
 
@@ -566,6 +567,62 @@ Count number of words in file.
 
 ```bash
 wc -w <file>
+```
+
+## Shortcuts
+
+Move cursor to beginning of line.
+
+```bash
+ctrl + a
+```
+
+Move cursor to end of line.
+
+```bash
+ctrl + e
+```
+
+Cut everything from line start to cursor.
+
+```bash
+ctrl + u
+```
+
+Cut everything from the cursor to end of the line.
+
+```bash
+ctrl + k
+```
+
+Cut one word backwards using white space as delimiter.
+
+```bash
+ctrl + w
+```
+
+Paste whatever was cut by the last cut command.
+
+```bash
+ctrl + y
+```
+
+Kill whatever you are running.
+
+```bash
+ctrl + c
+```
+
+Clears the screen.
+
+```bash
+ctrl + l
+```
+
+Clears the screen.
+
+```bash
+cmd + k
 ```
 
 ## Others
