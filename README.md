@@ -653,7 +653,9 @@ pbcopy < <file>
 
 Provide copying to the pasteboard.
 
+```bash
 cat <file> | pbcopy
+```
 
 Provide pasting to the pasteboard.
 
