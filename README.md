@@ -633,6 +633,12 @@ Show present working directory.
 pwd
 ```
 
+Print out a list of all environment variables.
+
+```bash
+env
+```
+
 Executes the right-hand command of && only if the previous one succeeded.
 
 ```bash
