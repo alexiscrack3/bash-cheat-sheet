@@ -766,3 +766,15 @@ Get the weather in a different city. Replace any spaces in the name with a + or 
 ```bash
 curl wttr.in/<city>
 ```
+
+Print last executed command.
+
+```bash
+!!
+```
+
+Run binary in the background.
+
+```bash
+<bin> &
+```
