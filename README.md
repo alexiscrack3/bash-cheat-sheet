@@ -539,6 +539,12 @@ Find a file by name but the match is case insensitive.
 find <path> -type <type> -iname "<pattern>"
 ```
 
+Find empty directories or files.
+
+```bash
+find ~ -type <type> -empty
+```
+
 Count number of lines/words/characters in file.
 
 ```bash
