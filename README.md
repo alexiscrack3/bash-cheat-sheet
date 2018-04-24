@@ -663,6 +663,18 @@ Provide pasting to the pasteboard.
 pbpaste
 ```
 
+An arbitrary precision calculator language.
+
+```bash
+bc
+```
+
+Do not print the normal GNU bc welcome.
+
+```bash
+bc -q
+```
+
 Executes the right-hand command of && only if the previous one succeeded.
 
 ```bash
