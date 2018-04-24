@@ -639,6 +639,12 @@ Print out a list of all environment variables.
 env
 ```
 
+Clear the terminal screen.
+
+```bash
+clear
+```
+
 Executes the right-hand command of && only if the previous one succeeded.
 
 ```bash
