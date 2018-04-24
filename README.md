@@ -716,3 +716,15 @@ List recent commands.
 ```bash
 history
 ```
+
+Get the weather forecast in your current location based on your ip address.
+
+```bash
+curl wttr.in
+```
+
+Get the weather in a different city. Replace any spaces in the name with a + or underscode.
+
+```bash
+curl wttr.in/<city>
+```
