@@ -681,6 +681,12 @@ Provide pasting to the pasteboard.
 pbpaste
 ```
 
+Evaluate a file or resource as a script.
+
+```bash
+source <file>
+```
+
 An arbitrary precision calculator language.
 
 ```bash
