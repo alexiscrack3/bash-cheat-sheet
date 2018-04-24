@@ -8,7 +8,9 @@ A collection of some of the most useful Git commands
     * [Listing Directories and Files](#listing-directories-and-files)
     * [Changing Working Directory](#changing-working-directory)
     * [Making Directories](#making-directories)
+    * [Removing Directories](#removing-directories)
     * [Copying Files](#copying-files)
+    * [Removing Files](#removing-files)
     * [Moving Files](#moving-files)
     * [Linking Files](#linking-files)
     * [Making Files](#making-files)
@@ -133,20 +135,6 @@ Ignore nonexistent files, never prompt.
 rm -f <dir>
 ```
 
-### Removing Files
-
-Remove file.
-
-```bash
-rm <file>
-```
-
-Remove files that match a pattern.
-
-```bash
-rm <pattern>
-```
-
 ### Copying Files
 
 Copy file1 to file2.
@@ -159,6 +147,20 @@ Copy directory dir1 to dir2 recursively.
 
 ```bash
 cp -r <dir1> <dir2>
+```
+
+### Removing Files
+
+Remove file.
+
+```bash
+rm <file>
+```
+
+Remove files that match a pattern.
+
+```bash
+rm <pattern>
 ```
 
 ### Moving Files
