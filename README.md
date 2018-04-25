@@ -395,7 +395,13 @@ Force kill process id pid.
 kill -9 <pid>
 ```
 
- Kills process by port number.
+kill all processes by name.
+
+```bash
+killall <name>
+```
+
+Kills process by port number.
 
 ```bash
 lsof -P | grep ':<port>' | awk '{print $2}' | xargs kill -9
