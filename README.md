@@ -267,6 +267,14 @@ Output the contents of file as it grows, starting with the last 10 lines.
 tail -f <file>
 ```
 
+### Creating Aliases
+
+Create an alias for a command.
+
+```bash
+alias <name>="<command>"
+```
+
 ## System Info
 
 Show system’s host name.
