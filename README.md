@@ -22,14 +22,14 @@ A collection of some of the most useful Git commands
 4. [Permissions](#permissions)
     * [Changing Permissions](#changing-permissions)
     * [Making Executables](#making-executables)
-5. [Compression](#compression)
-6. [Networking](#networking)
+5. [Networking](#networking)
     * [Sending Request](#sending-requests)
     * [Copying Remote Files](#copying-remote-files)
     * [SSH](#ssh)
     * [Processes](#processes)
     * [Others](#others)
-7. [Searching](#searching)
+6. [Searching](#searching)
+7. [Compression](#compression)
 8. [Shortcuts](#shortcuts)
 9. [Others](#others)
 
@@ -470,44 +470,6 @@ RemoveAdd the executable bit (x) to the user, group and others.
 chmod -x <file>
 ```
 
-## Compression
-
-Create a tar containing files.
-
-```bash
-tar cf <file>.tar <files>
-```
-
-Extract the files from tar.
-
-```bash
-tar xf <file>.tar
-```
-
-Create a tar with Gzip compression.
-
-```bash
-tar czf <file>.tar.gz <files>
-```
-
-Extract a tar using Gzip.
-
-```bash
-tar xzf <file>.tar.gz
-```
-
-Compresses file and renames it to file.gz.
-
-```bash
-gzip <file>
-```
-
-Decompresses Gzip back to file.
-
-```bash
-gzip -d <file>.gz
-```
-
 ## Networking
 
 ### Sending Requests
@@ -731,6 +693,44 @@ Count number of words in file.
 
 ```bash
 wc -w <file>
+```
+
+## Compression
+
+Create a tar containing files.
+
+```bash
+tar cf <file>.tar <files>
+```
+
+Extract the files from tar.
+
+```bash
+tar xf <file>.tar
+```
+
+Create a tar with Gzip compression.
+
+```bash
+tar czf <file>.tar.gz <files>
+```
+
+Extract a tar using Gzip.
+
+```bash
+tar xzf <file>.tar.gz
+```
+
+Compresses file and renames it to file.gz.
+
+```bash
+gzip <file>
+```
+
+Decompresses Gzip back to file.
+
+```bash
+gzip -d <file>.gz
 ```
 
 ## Shortcuts
