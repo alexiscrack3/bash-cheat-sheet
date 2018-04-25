@@ -18,16 +18,16 @@ A collection of some of the most useful Git commands
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
     * [Creating Aliases](#creating-aliases)
 2. [Systen Info](#system-info)
-3. [Compression](#compression)
-4. [System](#system)
-5. [Networking](#networking)
+3. [Process Management](#process-management)
+4. [Permissions](#permissions)
+    * [Changing Permissions](#changing-permissions)
+    * [Making Executables](#making-executables)
+5. [Compression](#compression)
+6. [System](#system)
+7. [Networking](#networking)
     * [Sending Request](#sending-requests)
     * [Copying Remote Files](#copying-remote-files)
     * [Processes](#processes)
-6. [Process Management](#process-management)
-7. [Permissions](#permissions)
-    * [Changing Permissions](#changing-permissions)
-    * [Making Executables](#making-executables)
 8. [Searching](#searching)
 9. [Shortcuts](#shortcuts)
 10. [Others](#others)
@@ -368,85 +368,12 @@ Show this years's calendar.
 cal <year>
 ```
 
-## Compression
-
-// TODO
-
-## Networking
-
-### Sending Requests
-
-Make a basic GET request to the specifed URI.
-
-```bash
-curl <uri>
-```
-
-Include HTTP-Header information in the output.
-
-```bash
-curl --include <uri>
-```
-
-Pass user credential to basic auth.
-
-```bash
-curl --user "username:password" <uri>
-```
-
-Send a header.
-
-```bash
-curl --header "Authorization: 12345" <uri>
-```
-
-Show more output.
-
-```bash
-curl -v <uri>
-     --verbose
-```
-
-### Copying Remote Files
-
-Secure copy a file from remote server to the dir directory on your machine.
-
-```bash
-scp user@host:file dir
-```
-
-Secure copy a file from your machine to the dir directory on a remote server.
-
-```bash
-scp file user@host:dir
-```
-
-### Processes
-
-List all processes running on port.
-
-```bash
-lsof -i :<port>
-```
-
-List all processes running on tcp port.
-
-```bash
-lsof -i tcp:<port>
-```
-
-List process using a file.
-
-```bash
-lsof <file>
-```
-
 ## Process Management
 
-Display all running processes.
+Display all currently active processes.
 
 ```bash
-ps -wA
+ps
 ```
 
 Display all running processes.
@@ -534,6 +461,79 @@ RemoveAdd the executable bit (x) to the user, group and others.
 
 ```bash
 chmod -x <file>
+```
+
+## Compression
+
+// TODO
+
+## Networking
+
+### Sending Requests
+
+Make a basic GET request to the specifed URI.
+
+```bash
+curl <uri>
+```
+
+Include HTTP-Header information in the output.
+
+```bash
+curl --include <uri>
+```
+
+Pass user credential to basic auth.
+
+```bash
+curl --user "username:password" <uri>
+```
+
+Send a header.
+
+```bash
+curl --header "Authorization: 12345" <uri>
+```
+
+Show more output.
+
+```bash
+curl -v <uri>
+     --verbose
+```
+
+### Copying Remote Files
+
+Secure copy a file from remote server to the dir directory on your machine.
+
+```bash
+scp user@host:file dir
+```
+
+Secure copy a file from your machine to the dir directory on a remote server.
+
+```bash
+scp file user@host:dir
+```
+
+### Processes
+
+List all processes running on port.
+
+```bash
+lsof -i :<port>
+```
+
+List all processes running on tcp port.
+
+```bash
+lsof -i tcp:<port>
+```
+
+List process using a file.
+
+```bash
+lsof <file>
 ```
 
 ## Searching
