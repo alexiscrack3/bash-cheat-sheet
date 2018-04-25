@@ -466,7 +466,41 @@ chmod -x <file>
 
 ## Compression
 
-// TODO
+Create a tar containing files.
+
+```bash
+tar cf <file>.tar <files>
+```
+
+Extract the files from tar.
+
+```bash
+tar xf <file>.tar
+```
+
+Create a tar with Gzip compression.
+
+```bash
+tar czf <file>.tar.gz <files>
+```
+
+Extract a tar using Gzip.
+
+```bash
+tar xzf <file>.tar.gz
+```
+
+Compresses file and renames it to file.gz.
+
+```bash
+gzip <file>
+```
+
+Decompresses Gzip back to file.
+
+```bash
+gzip -d <file>.gz
+```
 
 ## Networking
 
