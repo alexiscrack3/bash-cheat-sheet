@@ -16,6 +16,7 @@ A collection of some of the most useful Git commands
     * [Linking Files](#linking-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
+    * [Creating Aliases](#creating-aliases)
 2. [Systen Info](#system-info)
 3. [Compression](#compression)
 4. [System](#system)
