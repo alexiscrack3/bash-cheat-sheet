@@ -657,6 +657,12 @@ Execute command for all directories or files in a given path.
 find <path> -type <type> -iname "*.csv" -exec cp {} ~/csv_files/ \;
 ```
 
+Find all occurrences of day in a file and replace them with night - s means substitude and g means global - sed also supports regular expressions.
+
+```bash
+sed -i 's/day/night/g' <file>
+```
+
 Count number of lines/words/characters in file.
 
 ```bash
