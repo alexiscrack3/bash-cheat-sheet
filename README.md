@@ -345,6 +345,36 @@ Show directory space usage with human readable size.
 du -h <file>
 ```
 
+Count number of lines/words/characters in file.
+
+```bash
+wc <file>
+```
+
+Count number of bytes in file.
+
+```bash
+wc -c <file>
+```
+
+Count number of lines in file.
+
+```bash
+wc -l <file>
+```
+
+Count number of characters in file.
+
+```bash
+wc -m <file>
+```
+
+Count number of words in file.
+
+```bash
+wc -w <file>
+```
+
 Show possible locations of app.
 
 ```bash
@@ -663,36 +693,6 @@ Find all occurrences of day in a file and replace them with night - s means subs
 
 ```bash
 sed -i 's/day/night/g' <file>
-```
-
-Count number of lines/words/characters in file.
-
-```bash
-wc <file>
-```
-
-Count number of bytes in file.
-
-```bash
-wc -c <file>
-```
-
-Count number of lines in file.
-
-```bash
-wc -l <file>
-```
-
-Count number of characters in file.
-
-```bash
-wc -m <file>
-```
-
-Count number of words in file.
-
-```bash
-wc -w <file>
 ```
 
 ## Compression
