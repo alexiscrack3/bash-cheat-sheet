@@ -16,6 +16,7 @@ A collection of some of the most useful Git commands
     * [Linking Files](#linking-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
+    * [Executing Commands](#executing-commands)
     * [Creating Aliases](#creating-aliases)
 2. [Systen Info](#system-info)
 3. [Process Management](#process-management)
@@ -267,6 +268,38 @@ Output the contents of file as it grows, starting with the last 10 lines.
 
 ```bash
 tail -f <file>
+```
+
+### Executing Commands
+
+Execute command for all directories or files in a given path.
+
+```bash
+find <path> -type <type> -exec chmod 644 {} \;
+```
+
+Execute command for all directories or files in a given path.
+
+```bash
+find <path> -type <type> -iname "*.csv" -exec cp {} ~/csv_files/ \;
+```
+
+Execute command for all directories or files in a given path.
+
+```bash
+find <path> -type <type> | xargs <bin>
+```
+
+Execute command for all directories or files in a given path and prints each command that will be executed.
+
+```bash
+find <path> -type <type> | xargs -t <bin>
+```
+
+Execute command for all directories or files in a given path and prints the command to be executed and prompts the user to run it.
+
+```bash
+find <path> -type <type> | xargs -p <bin>
 ```
 
 ### Creating Aliases
@@ -675,18 +708,6 @@ True if the current file or directory is empty.
 
 ```bash
 find <path> -type <type> -empty
-```
-
-Execute command for all directories or files in a given path.
-
-```bash
-find <path> -type <type> -exec chmod 644 {} \;
-```
-
-Execute command for all directories or files in a given path.
-
-```bash
-find <path> -type <type> -iname "*.csv" -exec cp {} ~/csv_files/ \;
 ```
 
 Find all occurrences of day in a file and replace them with night - s means substitude and g means global - sed also supports regular expressions.
