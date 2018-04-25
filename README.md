@@ -446,6 +446,18 @@ Display all running processes.
 top
 ```
 
+Sort processes by primary sort key in descending order.
+
+```bash
+top -o <key>
+```
+
+Sort processes by cpu in descending order.
+
+```bash
+top -u
+```
+
 Kill process id pid.
 
 ```bash
