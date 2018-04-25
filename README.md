@@ -23,14 +23,13 @@ A collection of some of the most useful Git commands
     * [Changing Permissions](#changing-permissions)
     * [Making Executables](#making-executables)
 5. [Compression](#compression)
-6. [System](#system)
-7. [Networking](#networking)
+6. [Networking](#networking)
     * [Sending Request](#sending-requests)
     * [Copying Remote Files](#copying-remote-files)
     * [Processes](#processes)
-8. [Searching](#searching)
-9. [Shortcuts](#shortcuts)
-10. [Others](#others)
+7. [Searching](#searching)
+8. [Shortcuts](#shortcuts)
+9. [Others](#others)
 
 ## File System
 
