@@ -26,7 +26,9 @@ A collection of some of the most useful Git commands
 6. [Networking](#networking)
     * [Sending Request](#sending-requests)
     * [Copying Remote Files](#copying-remote-files)
+    * [SSH](#ssh)
     * [Processes](#processes)
+    * [Others](#others)
 7. [Searching](#searching)
 8. [Shortcuts](#shortcuts)
 9. [Others](#others)
@@ -515,6 +517,20 @@ Secure copy a file from your machine to the dir directory on a remote server.
 scp file user@host:dir
 ```
 
+### SSH
+
+Connect to host as user.
+
+```bash
+ssh user@host
+```
+
+Connect to host on port as user.
+
+```bash
+ssh -p port user@host
+```
+
 ### Processes
 
 List all processes running on port.
@@ -533,6 +549,32 @@ List process using a file.
 
 ```bash
 lsof <file>
+```
+
+### Others
+
+Ping host and output results.
+
+```bash
+ping <host>
+```
+
+Get information for domain.
+
+```bash
+whois <host>
+```
+
+Get DNS information for domain
+
+```bash
+dig <domain>
+```
+
+Reverse lookup host
+
+```bash
+dig -x host
 ```
 
 ## Searching
