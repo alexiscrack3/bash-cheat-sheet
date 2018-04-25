@@ -284,6 +284,24 @@ Show system’s host name.
 hostname
 ```
 
+Shut down machine.
+
+```bash
+shutdown
+```
+
+Restart machine.
+
+```bash
+reboot
+```
+
+Show the current date and time.
+
+```bash
+data
+```
+
 Display how long the system has been running.
 
 ```bash
@@ -302,6 +320,18 @@ Who you are logged in as.
 whoami
 ```
 
+Show the manual for command.
+
+```bash
+man command
+```
+
+Show disk usage.
+
+```bash
+df
+```
+
 Show directory space usage.
 
 ```bash
@@ -312,6 +342,12 @@ Show directory space usage with human readable size.
 
 ```bash
 du -h <file>
+```
+
+Show possible locations of app.
+
+```bash
+whereis <app>
 ```
 
 Where the app is located.
