@@ -196,6 +196,12 @@ Remove file.
 rm <file>
 ```
 
+Prompt before every removal.
+
+```bash
+rm -i <file>
+```
+
 Remove files that match a pattern.
 
 ```bash
