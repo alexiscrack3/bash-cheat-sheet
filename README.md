@@ -71,7 +71,7 @@ ls -a
 List directory entries instead of contents.
 
 ```bash
-ls -d <dir>
+ls -d <directory>
 ```
 
 List only hidden files.
@@ -84,10 +84,10 @@ ls -ld .??*
 
 ### Changing Working Directory
 
-Change directory to dir.
+Change current directory to directory.
 
 ```bash
-cd <dir>
+cd <directory>
 ```
 
 Change directory to home.
@@ -122,10 +122,10 @@ cd -
 
 ### Making Directories
 
-Make directory dir.
+Make directory.
 
 ```bash
-mkdir <dir>
+mkdir <directory>
 ```
 
 ### Removing Directories
@@ -133,19 +133,19 @@ mkdir <dir>
 Remove empty directory.
 
 ```bash
-rmdir <dir>
+rmdir <directory>
 ```
 
-Remove directory dir recursively.
+Remove directory recursively.
 
 ```bash
-rm -r <dir>
+rm -r <directory>
 ```
 
 Ignore nonexistent files, never prompt.
 
 ```bash
-rm -f <dir>
+rm -f <directory>
 ```
 
 ### Opening Directories and Files
@@ -588,16 +588,16 @@ curl -v <uri>
 
 ### Copying Remote Files
 
-Secure copy a file from remote server to the dir directory on your machine.
+Secure copy a file from remote server to the directory on your machine.
 
 ```bash
-scp user@host:file dir
+scp user@host:file <directory>
 ```
 
-Secure copy a file from your machine to the dir directory on a remote server.
+Secure copy a file from your machine to the directory on a remote server.
 
 ```bash
-scp file user@host:dir
+scp file user@host:<directory>
 ```
 
 ### SSH
@@ -662,40 +662,40 @@ dig -x host
 
 ## Searching
 
-Search for pattern in dir.
+Search for pattern in directory.
 
 ```bash
-grep <pattern> <dir>
+grep <pattern> <directory>
 ```
 
-Search recursively for pattern in dir.
+Search recursively for pattern in directory.
 
 ```bash
-grep -r <pattern> <dir>
+grep -r <pattern> <directory>
 ```
 
-Case-insensitive search for pattern in dir.
+Case-insensitive search for pattern in directory.
 
 ```bash
-grep -i <pattern> <dir>
+grep -i <pattern> <directory>
 ```
 
 Prefix output with line numbers.
 
 ```bash
-grep -n <pattern> <dir>
+grep -n <pattern> <directory>
 ```
 
 Select non-matching lines.
 
 ```bash
-grep -v <pattern> <dir>
+grep -v <pattern> <directory>
 ```
 
 Only print a count of matching lines.
 
 ```bash
-grep -c <pattern> <dir>
+grep -c <pattern> <directory>
 ```
 
 Find directories or files in system.
