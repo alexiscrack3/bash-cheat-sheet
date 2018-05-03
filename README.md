@@ -360,10 +360,10 @@ Who you are logged in as.
 whoami
 ```
 
-Show the manual for command.
+Show the manual for bin.
 
 ```bash
-man command
+man <bin>
 ```
 
 Show disk usage.
