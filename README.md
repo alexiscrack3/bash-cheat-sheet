@@ -414,16 +414,16 @@ Count number of words in file.
 wc -w <file>
 ```
 
-Show possible locations of app.
+Show possible locations of bin.
 
 ```bash
-whereis <app>
+whereis <bin>
 ```
 
-Where the app is located.
+Where the bin is located.
 
 ```bash
-which <app>
+which <bin>
 ```
 
 Show this month's calendar.
