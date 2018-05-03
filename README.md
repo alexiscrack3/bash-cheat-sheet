@@ -339,7 +339,7 @@ reboot
 Show the current date and time.
 
 ```bash
-data
+date
 ```
 
 Display how long the system has been running.
