@@ -12,7 +12,7 @@ A collection of some of the most useful Git commands
     * [Opening Directories and Files](#opening-directories-and-files)
     * [Copying Files](#copying-files)
     * [Removing Files](#removing-files)
-    * [Moving Files](#moving-files)
+    * [Moving Directories and Files](#moving-directories-and-files)
     * [Linking Files](#linking-files)
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
@@ -208,12 +208,12 @@ Remove files that match a pattern.
 rm <pattern>
 ```
 
-### Moving Files
+### Moving Directories and Files
 
-Move (rename) file1 to file2.
+Move (rename) path1 to path2.
 
 ```bash
-mv <file1> <file2>
+mv <path1> <path2>
 ```
 
 ### Linking Files
