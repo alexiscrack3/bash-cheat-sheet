@@ -366,7 +366,7 @@ Show the manual for bin.
 man <bin>
 ```
 
-Show disk usage.
+Show free disk space.
 
 ```bash
 df
