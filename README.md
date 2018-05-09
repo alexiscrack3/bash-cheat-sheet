@@ -14,7 +14,7 @@ A collection of some of the most useful Git commands
     * [Moving Directories and Files](#moving-directories-and-files)
     * [Linking Files](#linking-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
-    * [Executing Commands](#executing-commands)
+    * [Commands](#commands)
     * [Aliases](#aliases)
 2. [Systen Info](#system-info)
 3. [Process Management](#process-management)
@@ -276,7 +276,7 @@ Output the contents of file as it grows, starting with the last 10 lines.
 tail -f <file>
 ```
 
-### Executing Commands
+### Commands
 
 Execute command for all directories or files in a given path.
 
