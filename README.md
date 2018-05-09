@@ -8,10 +8,9 @@ A collection of some of the most useful Git commands
     * [Listing Directories and Files](#listing-directories-and-files)
     * [Changing Working Directory](#changing-working-directory)
     * [Making Directories](#making-directories)
-    * [Removing Directories](#removing-directories)
+    * [Removing Directories and Files](#removing-directories-and-files)
     * [Opening Directories and Files](#opening-directories-and-files)
     * [Copying Files](#copying-files)
-    * [Removing Files](#removing-files)
     * [Moving Directories and Files](#moving-directories-and-files)
     * [Linking Files](#linking-files)
     * [Making Files](#making-files)
@@ -128,7 +127,7 @@ Make directory.
 mkdir <directory>
 ```
 
-### Removing Directories
+### Removing Directories and Files
 
 Remove empty directory.
 
@@ -146,6 +145,24 @@ Ignore nonexistent files, never prompt.
 
 ```bash
 rm -f <directory>
+```
+
+Remove file.
+
+```bash
+rm <file>
+```
+
+Prompt before every removal.
+
+```bash
+rm -i <file>
+```
+
+Remove files that match a pattern.
+
+```bash
+rm <pattern>
 ```
 
 ### Opening Directories and Files
@@ -186,26 +203,6 @@ Copy directory dir1 to dir2 recursively.
 
 ```bash
 cp -r <dir1> <dir2>
-```
-
-### Removing Files
-
-Remove file.
-
-```bash
-rm <file>
-```
-
-Prompt before every removal.
-
-```bash
-rm -i <file>
-```
-
-Remove files that match a pattern.
-
-```bash
-rm <pattern>
 ```
 
 ### Moving Directories and Files
