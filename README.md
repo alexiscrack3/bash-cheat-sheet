@@ -17,7 +17,7 @@ A collection of some of the most useful Git commands
     * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
     * [Executing Commands](#executing-commands)
-    * [Creating Aliases](#creating-aliases)
+    * [Aliases](#aliases)
 2. [Systen Info](#system-info)
 3. [Process Management](#process-management)
 4. [Permissions](#permissions)
@@ -308,7 +308,7 @@ Execute command for all directories or files in a given path and prints the comm
 find <path> -type <type> | xargs -p <bin>
 ```
 
-### Creating Aliases
+### Aliases
 
 Create an alias for a command.
 
