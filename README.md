@@ -7,13 +7,12 @@ A collection of some of the most useful Git commands
 1. [File System](#file-system)
     * [Listing Directories and Files](#listing-directories-and-files)
     * [Changing Working Directory](#changing-working-directory)
-    * [Making Directories](#making-directories)
+    * [Making Directories and Files](#making-directories-and-files)
     * [Removing Directories and Files](#removing-directories-and-files)
     * [Opening Directories and Files](#opening-directories-and-files)
     * [Copying Files](#copying-files)
     * [Moving Directories and Files](#moving-directories-and-files)
     * [Linking Files](#linking-files)
-    * [Making Files](#making-files)
     * [Displaying the Contents of a File](#displaying-the-contents-of-a-file)
     * [Executing Commands](#executing-commands)
     * [Aliases](#aliases)
@@ -127,6 +126,12 @@ Make directory.
 mkdir <directory>
 ```
 
+Create or update file.
+
+```bash
+touch <file>
+```
+
 ### Removing Directories and Files
 
 Remove empty directory.
@@ -225,14 +230,6 @@ Create symbolic link.
 
 ```bash
 ln -s <file> <link>
-```
-
-### Making Files
-
-Create or update file
-
-```bash
-touch <file>
 ```
 
 ### Displaying the Contents of a File
