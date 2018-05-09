@@ -218,7 +218,13 @@ mv <path1> <path2>
 
 ### Linking Files
 
-Create symbolic link to file, instead of hard links.
+Create hard link
+
+```bash
+ln <file> <link>
+```
+
+Create symbolic link.
 
 ```bash
 ln -s <file> <link>
