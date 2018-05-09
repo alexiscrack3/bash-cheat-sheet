@@ -26,7 +26,6 @@ A collection of some of the most useful Git commands
     * [Copying Remote Files](#copying-remote-files)
     * [SSH](#ssh)
     * [Processes](#processes)
-    * [Others](#others)
 6. [Searching](#searching)
 7. [Compression](#compression)
 8. [Shortcuts](#shortcuts)
@@ -553,6 +552,30 @@ chmod -x <file>
 
 ## Networking
 
+Ping host and output results.
+
+```bash
+ping <host>
+```
+
+Get information for domain.
+
+```bash
+whois <host>
+```
+
+Get DNS information for domain
+
+```bash
+dig <domain>
+```
+
+Reverse lookup host
+
+```bash
+dig -x host
+```
+
 ### Sending Requests
 
 Make a basic GET request to the specifed URI.
@@ -632,32 +655,6 @@ List process using a file.
 
 ```bash
 lsof <file>
-```
-
-### Others
-
-Ping host and output results.
-
-```bash
-ping <host>
-```
-
-Get information for domain.
-
-```bash
-whois <host>
-```
-
-Get DNS information for domain
-
-```bash
-dig <domain>
-```
-
-Reverse lookup host
-
-```bash
-dig -x host
 ```
 
 ## Searching
