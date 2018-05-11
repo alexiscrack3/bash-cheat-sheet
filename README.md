@@ -29,7 +29,8 @@ A collection of some of the most useful Git commands
 6. [Searching](#searching)
 7. [Compression](#compression)
 8. [Shortcuts](#shortcuts)
-9. [Others](#others)
+9. [Redirections](#redirections)
+10. [Others](#others)
 
 ## File System
 
@@ -823,6 +824,74 @@ Clears the screen.
 
 ```bash
 cmd + k
+```
+
+## Redirections
+
+Redirect the standard output (stdout) of command to a file.
+
+```bash
+<command> > file
+```
+
+Same as `<command> > file`. 1 is the default file descriptor for stdout.
+
+```bash
+<command> 1> file
+```
+
+Redirect the standard error (stderr) of command to a file. 2 is the default file descriptor for stderr.
+
+```bash
+<command> 2> file
+```
+
+Redirect stdout and stderr to a file.
+
+```bash
+<command> &> file
+```
+
+Append stdout of command to a file.
+
+```bash
+<command> >> file
+```
+
+Redirect the contents of the file to the stdin of command.
+
+```bash
+<command> < file
+```
+
+Append stderr of command to a file.
+
+```bash
+<command> 2>> file
+```
+
+Another way to redirect both stdout and stderr of command to a file. This *is not* same as `<command> 2>&1 > file`. Redirection order matters!
+
+```bash
+<command> > file 2>&1
+```
+
+Discard stdout of command.
+
+```bash
+<command> > /dev/null
+```
+
+Discard stderr of command.
+
+```bash
+<command> 2> /dev/null
+```
+
+Discard stdout and stderr.
+
+```bash
+<command> &> /dev/null
 ```
 
 ## Others
