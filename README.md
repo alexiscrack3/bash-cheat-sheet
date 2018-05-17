@@ -932,6 +932,18 @@ Clear the terminal screen.
 clear
 ```
 
+Add directory to the beginning of the $PATH environment variable.
+
+```bash
+PATH=$PATH:<dir>
+```
+
+Add directory to the ending of the $PATH environment variable.
+
+```bash
+PATH=<dir>:$PATH
+```
+
 Provide copying to the pasteboard.
 
 ```bash
