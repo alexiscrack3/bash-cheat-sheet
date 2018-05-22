@@ -42,6 +42,12 @@ List items in current directory.
 ls
 ```
 
+List items in current directory in a single column.
+
+```bash
+ls -1
+```
+
 List items in current directory and show in long format to see perimissions, size, and modification date.
 
 ```bash
