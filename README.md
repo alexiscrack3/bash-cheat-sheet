@@ -432,6 +432,12 @@ Where the bin is located.
 which <bin>
 ```
 
+Print symlink free path as well.
+
+```bash
+which -s <bin>
+```
+
 Show this month's calendar.
 
 ```bash
