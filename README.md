@@ -26,11 +26,12 @@ A collection of some of the most useful Git commands
     * [Copying Remote Files](#copying-remote-files)
     * [SSH](#ssh)
     * [Processes](#processes)
-6. [Searching](#searching)
-7. [Compression](#compression)
-8. [Shortcuts](#shortcuts)
-9. [Redirections](#redirections)
-10. [Others](#others)
+6. [Text Processing](#text-processing)
+7. [Searching](#searching)
+8. [Compression](#compression)
+9. [Shortcuts](#shortcuts)
+10. [Redirections](#redirections)
+11. [Others](#others)
 
 ## File System
 
@@ -669,6 +670,8 @@ List process using a file.
 ```bash
 lsof <file>
 ```
+
+## Text Processing
 
 ## Searching
 
