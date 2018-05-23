@@ -673,6 +673,16 @@ lsof <file>
 
 ## Text Processing
 
+Process text files. Awk assigns some variables for each data field found:
+$0 for the whole line.
+$1 for the first field.
+$2 for the second field.
+$n for the nth field.
+
+```bash
+awk '{print $n}' <file>
+```
+
 ## Searching
 
 Search for pattern in directory.
