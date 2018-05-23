@@ -1034,8 +1034,26 @@ Print last executed command.
 !!
 ```
 
-Run binary in the background.
+Run command A and then B, regardless of success of A.
 
 ```bash
-<bin> &
+<command-a>; <command-b>
+```
+
+Run command B if command A succeeded.
+
+```bash
+<command-a> && <command-b>
+```
+
+Run command B if command A failed.
+
+```bash
+<command-a> || <command-b>
+```
+
+Run command A in background.
+
+```bash
+<command-a> &
 ```
