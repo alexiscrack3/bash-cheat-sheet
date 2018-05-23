@@ -998,16 +998,28 @@ Do not print the normal GNU bc welcome.
 bc -q
 ```
 
-Executes the right-hand command of && only if the previous one succeeded.
+Run left-hand command and then right-hand command, regardless of success of left-hand command.
 
 ```bash
-<command> && <command
+<command>; <command>
 ```
 
-Executes the right-hand command of || only it the previous one failed.
+Run right-command if left-hand command succeeded.
 
 ```bash
-<command> || <command
+<command> && <command>
+```
+
+Run right-hand command if left-hand command failed.
+
+```bash
+<command> || <command>
+```
+
+Run command in background.
+
+```bash
+<command> &
 ```
 
 List recent commands.
@@ -1032,28 +1044,4 @@ Print last executed command.
 
 ```bash
 !!
-```
-
-Run command A and then B, regardless of success of A.
-
-```bash
-<command-a>; <command-b>
-```
-
-Run command B if command A succeeded.
-
-```bash
-<command-a> && <command-b>
-```
-
-Run command B if command A failed.
-
-```bash
-<command-a> || <command-b>
-```
-
-Run command A in background.
-
-```bash
-<command-a> &
 ```
