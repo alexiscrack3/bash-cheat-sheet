@@ -1054,6 +1054,12 @@ Get the weather in a different city. Replace any spaces in the name with a + or 
 curl wttr.in/<city>
 ```
 
+Print a sequence of numbers.
+
+```bash
+seq 1 10
+```
+
 Print last executed command.
 
 ```bash
