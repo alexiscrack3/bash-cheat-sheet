@@ -316,18 +316,33 @@ find <path> -type <type> | xargs -p <bin>
 ```
 
 Change permissions for all files, skipping dirs.
+
 ```bash
 find . -type f | xargs chmod 664
 ```
 
 Change permissions for all dirs, skipping files.
+
 ```bash
 find . -type d | xargs chmod 755
 ```
 
 Change permissions for all dirs with whitespaces, skipping files.
+
 ```bash
 find . -type d -print0 | xargs -0 chmod 755
+```
+
+Find directories with permissions other than 664.
+
+```bash
+find -type f -not -perm 664
+```
+
+Find directories with permissions other than 755.
+
+```bash
+find -type d -not -perm 755
 ```
 
 ### Aliases
