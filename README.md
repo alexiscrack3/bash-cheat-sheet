@@ -315,6 +315,21 @@ Execute command for all directories or files in a given path and prints the comm
 find <path> -type <type> | xargs -p <bin>
 ```
 
+Change permissions for all files, skipping dirs.
+```bash
+find . -type f | xargs chmod 664
+```
+
+Change permissions for all dirs, skipping files.
+```bash
+find . -type d | xargs chmod 755
+```
+
+Change permissions for all dirs with whitespaces, skipping files.
+```bash
+find . -type d -print0 | xargs -0 chmod 755
+```
+
 ### Aliases
 
 Create an alias for a command.
