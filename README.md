@@ -353,6 +353,12 @@ Create an alias for a command.
 alias <name>="<command>"
 ```
 
+Print alias.
+
+```bash
+alias <name>
+```
+
 ## System Info
 
 Show system’s host name.
