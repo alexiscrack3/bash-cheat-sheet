@@ -794,6 +794,24 @@ Find all occurrences of day in a file and replace them with night - s means subs
 sed -i 's/day/night/g' <file>
 ```
 
+Search backward in history (reverse-i-search).
+
+```bash
+ctrl + r
+```
+
+Search forward in history (reverse-i-search).
+
+```bash
+ctrl + s
+```
+
+Cancel current search (reverse-i-search).
+
+```bash
+ctrl + g
+```
+
 ## Compression
 
 Create a tar containing files.
