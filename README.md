@@ -1012,6 +1012,12 @@ Clear the terminal screen.
 clear
 ```
 
+Run the specified command with the given arguments. When command finishes, time writes timing statistics about this command run.
+
+```bash
+time <command>
+```
+
 Add directory to the beginning of the $PATH environment variable.
 
 ```bash
