@@ -1120,6 +1120,12 @@ Print a sequence of numbers.
 seq 1 10
 ```
 
+Execute long running script and refocus window when it's done.
+
+```bash
+<command>; open -a iTerm
+```
+
 Print last executed command.
 
 ```bash
