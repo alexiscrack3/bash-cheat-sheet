@@ -991,7 +991,7 @@ echo $?
 Append stdout of command to a file.
 
 ```bash
-<cmd> >> <file>
+<command> >> <file>
 ```
 
 Show present working directory.
