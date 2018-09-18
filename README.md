@@ -947,7 +947,7 @@ Redirect the contents of the file to the stdin of command.
 Append stderr of command to a file.
 
 ```bash
-<command> 2>> file
+<command> 2> file
 ```
 
 Another way to redirect both stdout and stderr of command to a file. This *is not* same as `<command> 2>&1 > file`. Redirection order matters!
