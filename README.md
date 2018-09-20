@@ -926,28 +926,22 @@ Redirect the standard error (stderr) of command to a file. 2 is the default file
 <command> 2> file
 ```
 
-Redirect stdout and stderr to a file.
-
-```bash
-<command> &> file
-```
-
 Append stdout of command to a file.
 
 ```bash
 <command> >> file
 ```
 
-Redirect the contents of the file to the stdin of command.
-
-```bash
-<command> < file
-```
-
 Append stderr of command to a file.
 
 ```bash
-<command> 2> file
+<command> 2>> file
+```
+
+Redirect stdout and stderr to a file.
+
+```bash
+<command> &> file
 ```
 
 Another way to redirect both stdout and stderr of command to a file. This *is not* same as `<command> 2>&1 > file`. Redirection order matters!
@@ -972,6 +966,12 @@ Discard stdout and stderr.
 
 ```bash
 <command> &> /dev/null
+```
+
+Redirect the contents of the file to the stdin of command.
+
+```bash
+<command> < file
 ```
 
 ## Others
