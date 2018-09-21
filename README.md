@@ -944,6 +944,12 @@ Redirect stdout and stderr to a file.
 <command> &> file
 ```
 
+Redirect stdout and stderr to a file.
+
+```bash
+<command> > file 2>&1
+```
+
 Another way to redirect both stdout and stderr of command to a file. This *is not* same as `<command> 2>&1 > file`. Redirection order matters!
 
 ```bash
