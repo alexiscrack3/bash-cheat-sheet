@@ -1,4 +1,4 @@
-# Unix Cheat Sheet
+# Bash Cheat Sheet
 
 A collection of some of the most useful Git commands
 
