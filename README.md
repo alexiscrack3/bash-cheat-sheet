@@ -1,6 +1,6 @@
 # Bash Cheat Sheet
 
-A collection of some of the most useful Git commands
+A collection of some of the most useful bash commands
 
 ## Table of Contents
 
