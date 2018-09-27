@@ -125,6 +125,24 @@ Go to the last directory you were just in.
 cd -
 ```
 
+Add path to directory stack.
+
+```bash
+pushd <directory>
+````
+
+Go back to the directory  most recently stored by the pusdh command.
+
+```bash
+popd
+```
+
+View directory stack.
+
+```bash
+dirs
+```
+
 ### Making Directories
 
 Make directory.
