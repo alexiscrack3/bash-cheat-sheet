@@ -43,6 +43,12 @@ List items in current directory.
 ls
 ```
 
+List items with pattern in current directory.
+
+```bash
+ls <pattern>
+```
+
 List items in current directory in a single column.
 
 ```bash
@@ -52,19 +58,13 @@ ls -1
 List items in current directory and show in long format to see perimissions, size, and modification date.
 
 ```bash
-l
-```
-
-List items in current directory and show in long format to see perimissions, size, and modification date.
-
-```bash
 ls -l
 ```
 
-List items in current directory and show in long format to see perimissions, human readable size, and modification date.
+List items in human readable size.
 
 ```bash
-ls -lh
+ls -h
 ```
 
 List all items in current directory, including hidden files.
