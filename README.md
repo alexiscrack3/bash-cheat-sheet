@@ -868,6 +868,18 @@ Decompresses Gzip back to file.
 gzip -d <file>.gz
 ```
 
+List archive files (verbose format).
+
+```bash
+unzip -v <file>.zip
+```
+
+List archive files (short format).
+
+```bash
+unzip -l <file>.zip
+```
+
 ## Shortcuts
 
 Move cursor to beginning of line.
