@@ -363,6 +363,12 @@ Find directories with permissions other than 755.
 find -type d -not -perm 755
 ```
 
+Count number of directories in a specific directory. Descend at most n directory levels below the command line arguments.
+
+```bash
+find -type d -maxdepth n | wc -l
+```
+
 ### Aliases
 
 Create an alias for a command.
