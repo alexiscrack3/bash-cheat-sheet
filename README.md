@@ -806,10 +806,41 @@ True if the current file or directory is empty.
 find <path> -type <type> -empty
 ```
 
-Find all occurrences of day in a file and replace them with night - s means substitude and g means global - sed also supports regular expressions.
+Find all occurrences of PATTERN and replace them with REPLACEMENTE in a file. 's' means substitude.
+
+There are four types of substitutions:
+
+* g, replace all occurrences.
+* A number, the occurrence number for the new text that you want to substitute.
+* p, print the original content.
+* w, write the results to a file.
 
 ```bash
-sed -i 's/day/night/g' <file>
+sed 's/<pattern>/<replacement>/[<flags>]'
+```
+
+Redirect output to new file
+
+```bash
+sed 's/<pattern>/<replacement>/[<flags>]' <file>
+```
+
+Find and replace all ocurrences in the same file
+
+```bash
+sed -i.bak 's/<pattern>/<replacement>/[<flags>]' <file>
+```
+
+Print each line that contains a pattern match, use -n option to print the modified lines only.
+
+```bash
+sed -n 's/<pattern>/<replacement>/p' <file>
+```
+
+Limit the sed command to process specific lines.
+
+```bash
+sed '1s/<pattern>/<replacement>/[<flags>]' <file>
 ```
 
 Search backward in history (reverse-i-search).
