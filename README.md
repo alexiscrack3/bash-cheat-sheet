@@ -129,7 +129,7 @@ Add path to directory stack.
 
 ```bash
 pushd <directory>
-````
+```
 
 Go back to the directory  most recently stored by the pusdh command.
 
