@@ -243,6 +243,18 @@ Move (rename) path1 to path2.
 mv <path1> <path2>
 ```
 
+Move files form path to a different path.
+
+```bash
+mv <path>* <path>
+```
+
+Move hidden files from path to different path.
+
+```bash
+mv <path>.* <path>
+```
+
 ### Linking Files
 
 Create hard link
