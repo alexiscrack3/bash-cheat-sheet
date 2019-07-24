@@ -451,6 +451,12 @@ Show free disk space.
 df
 ```
 
+Show free disk space with human readable size.
+
+```bash
+df -h
+```
+
 Show directory space usage.
 
 ```bash
